@@ -1,0 +1,169 @@
+[
+    {
+        "constants": {},
+        "bound_class": "/Viewer/Loaded file",
+        "position": [
+            6,
+            33
+        ],
+        "outputs": {
+            "value": [
+                [
+                    1,
+                    "filename"
+                ],
+                [
+                    2,
+                    "filename"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {},
+        "bound_class": "/Arrays/HDF5 source",
+        "position": [
+            197,
+            68
+        ],
+        "outputs": {
+            "array": [
+                [
+                    5,
+                    "spatial"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {},
+        "bound_class": "/Arrays/HDF5 source",
+        "position": [
+            207,
+            173
+        ],
+        "outputs": {
+            "array": [
+                [
+                    5,
+                    "time"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {
+            "value": "data0"
+        },
+        "bound_class": "/Constants/String",
+        "position": [
+            15,
+            116
+        ],
+        "outputs": {
+            "value": [
+                [
+                    1,
+                    "field"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {
+            "value": "UT0"
+        },
+        "bound_class": "/Constants/String",
+        "position": [
+            21,
+            250
+        ],
+        "outputs": {
+            "value": [
+                [
+                    2,
+                    "field"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {},
+        "bound_class": "/Signal processing/Combine signal",
+        "position": [
+            442,
+            113
+        ],
+        "outputs": {
+            "signal": [
+                [
+                    7,
+                    "signal"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {},
+        "bound_class": "/Viewer/Current frame",
+        "position": [
+            767,
+            122
+        ],
+        "outputs": {}
+    },
+    {
+        "constants": {
+            "count_from_end": false
+        },
+        "bound_class": "/Signal processing/Cut signal (time)",
+        "position": [
+            624,
+            199
+        ],
+        "outputs": {
+            "signal": [
+                [
+                    6,
+                    "value"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {
+            "value": "16:00:00:00"
+        },
+        "bound_class": "/Constants/String",
+        "position": [
+            418,
+            211
+        ],
+        "outputs": {
+            "value": [
+                [
+                    7,
+                    "start"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {
+            "value": "16:00:01:00"
+        },
+        "bound_class": "/Constants/String",
+        "position": [
+            433,
+            297
+        ],
+        "outputs": {
+            "value": [
+                [
+                    7,
+                    "end"
+                ]
+            ]
+        }
+    }
+]

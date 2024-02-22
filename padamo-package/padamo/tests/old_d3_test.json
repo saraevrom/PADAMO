@@ -1,0 +1,129 @@
+[
+    {
+        "constants": {},
+        "bound_class": "/HDF5/Local HDF5 source",
+        "position": [
+            266,
+            19
+        ],
+        "outputs": {
+            "array": [
+                [
+                    7,
+                    "spatial"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {
+            "value": "pdm_2d_rot_global"
+        },
+        "bound_class": "/Constants/String",
+        "position": [
+            20,
+            96
+        ],
+        "outputs": {
+            "value": [
+                [
+                    0,
+                    "field"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {
+            "value": "ngtu_global"
+        },
+        "bound_class": "/Constants/String",
+        "position": [
+            8,
+            316
+        ],
+        "outputs": {
+            "value": [
+                [
+                    5,
+                    "field"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {},
+        "bound_class": "/Viewer/Loaded file",
+        "position": [
+            19,
+            213
+        ],
+        "outputs": {
+            "value": [
+                [
+                    5,
+                    "filename"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {},
+        "bound_class": "/Viewer/Loaded file",
+        "position": [
+            20,
+            34
+        ],
+        "outputs": {
+            "value": [
+                [
+                    0,
+                    "filename"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {},
+        "bound_class": "/HDF5/Local HDF5 source",
+        "position": [
+            225,
+            203
+        ],
+        "outputs": {
+            "array": [
+                [
+                    7,
+                    "time"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {},
+        "bound_class": "/Viewer/View",
+        "position": [
+            835,
+            141
+        ],
+        "outputs": {}
+    },
+    {
+        "constants": {
+            "is_d3": true
+        },
+        "bound_class": "/HDF5/Tuloma old remapper",
+        "position": [
+            490,
+            88
+        ],
+        "outputs": {
+            "signal": [
+                [
+                    6,
+                    "value"
+                ]
+            ]
+        }
+    }
+]

@@ -1,0 +1,215 @@
+[
+    {
+        "constants": {},
+        "bound_class": "/HDF5/Local HDF5 source",
+        "position": [
+            175,
+            66
+        ],
+        "outputs": {
+            "array": [
+                [
+                    6,
+                    "spatial"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {
+            "value": "pdm_2d_rot_global"
+        },
+        "bound_class": "/Constants/String",
+        "position": [
+            28,
+            141
+        ],
+        "outputs": {
+            "value": [
+                [
+                    0,
+                    "field"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {
+            "value": "unixtime_dbl_global"
+        },
+        "bound_class": "/Constants/String",
+        "position": [
+            31,
+            272
+        ],
+        "outputs": {
+            "value": [
+                [
+                    5,
+                    "field"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {},
+        "bound_class": "/Viewer/Loaded file",
+        "position": [
+            19,
+            213
+        ],
+        "outputs": {
+            "value": [
+                [
+                    5,
+                    "filename"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {},
+        "bound_class": "/Viewer/Loaded file",
+        "position": [
+            20,
+            34
+        ],
+        "outputs": {
+            "value": [
+                [
+                    0,
+                    "filename"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {},
+        "bound_class": "/HDF5/Local HDF5 source",
+        "position": [
+            225,
+            203
+        ],
+        "outputs": {
+            "array": [
+                [
+                    6,
+                    "time"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {},
+        "bound_class": "/Conversion/Combine signal",
+        "position": [
+            435,
+            136
+        ],
+        "outputs": {
+            "signal": [
+                [
+                    8,
+                    "signal"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {},
+        "bound_class": "/Viewer/View",
+        "position": [
+            997,
+            106
+        ],
+        "outputs": {}
+    },
+    {
+        "constants": {
+            "block": false
+        },
+        "bound_class": "/Signal processing/Frequency filter",
+        "position": [
+            736,
+            177
+        ],
+        "outputs": {
+            "filtered": [
+                [
+                    7,
+                    "value"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {
+            "value": 256
+        },
+        "bound_class": "/Constants/Int",
+        "position": [
+            473,
+            257
+        ],
+        "outputs": {
+            "value": [
+                [
+                    8,
+                    "window"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {
+            "value": 4.0
+        },
+        "bound_class": "/Constants/Float",
+        "position": [
+            143,
+            431
+        ],
+        "outputs": {
+            "value": [
+                [
+                    12,
+                    "band_width"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {
+            "value": 100.0
+        },
+        "bound_class": "/Constants/Float",
+        "position": [
+            121,
+            377
+        ],
+        "outputs": {
+            "value": [
+                [
+                    12,
+                    "frequency"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {},
+        "bound_class": "/Spectral Filters/Hard Band Pass filter",
+        "position": [
+            352,
+            379
+        ],
+        "outputs": {
+            "filter": [
+                [
+                    8,
+                    "filter"
+                ]
+            ]
+        }
+    }
+]

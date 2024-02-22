@@ -1,0 +1,229 @@
+[
+    {
+        "constants": {},
+        "bound_class": "/HDF5/Local HDF5 source",
+        "position": [
+            175,
+            66
+        ],
+        "outputs": {
+            "array": [
+                [
+                    6,
+                    "spatial"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {
+            "value": "data0"
+        },
+        "bound_class": "/Constants/String",
+        "position": [
+            22,
+            96
+        ],
+        "outputs": {
+            "value": [
+                [
+                    0,
+                    "field"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {
+            "value": "UT0"
+        },
+        "bound_class": "/Constants/String",
+        "position": [
+            31,
+            272
+        ],
+        "outputs": {
+            "value": [
+                [
+                    5,
+                    "field"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {},
+        "bound_class": "/Viewer/Loaded file",
+        "position": [
+            19,
+            213
+        ],
+        "outputs": {
+            "value": [
+                [
+                    5,
+                    "filename"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {},
+        "bound_class": "/Viewer/Loaded file",
+        "position": [
+            20,
+            34
+        ],
+        "outputs": {
+            "value": [
+                [
+                    0,
+                    "filename"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {},
+        "bound_class": "/HDF5/Local HDF5 source",
+        "position": [
+            225,
+            203
+        ],
+        "outputs": {
+            "array": [
+                [
+                    6,
+                    "time"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {},
+        "bound_class": "/Conversion/Combine signal",
+        "position": [
+            435,
+            136
+        ],
+        "outputs": {
+            "signal": [
+                [
+                    8,
+                    "signal"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {},
+        "bound_class": "/Viewer/View",
+        "position": [
+            997,
+            106
+        ],
+        "outputs": {}
+    },
+    {
+        "constants": {},
+        "bound_class": "/Signal processing/Frequency filter",
+        "position": [
+            736,
+            177
+        ],
+        "outputs": {
+            "filtered": [
+                [
+                    7,
+                    "value"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {},
+        "bound_class": "/Spectral Filters/Dual Butterworth Band Pass filter",
+        "position": [
+            293,
+            397
+        ],
+        "outputs": {
+            "filter": [
+                [
+                    10,
+                    "input_filter"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {},
+        "bound_class": "/Spectral Filters/Filter negate",
+        "position": [
+            577,
+            392
+        ],
+        "outputs": {
+            "output_filter": [
+                [
+                    8,
+                    "filter"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {
+            "value": 256
+        },
+        "bound_class": "/Constants/Int",
+        "position": [
+            506,
+            270
+        ],
+        "outputs": {
+            "value": [
+                [
+                    8,
+                    "window"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {
+            "value": 0.5
+        },
+        "bound_class": "/Constants/Float",
+        "position": [
+            143,
+            431
+        ],
+        "outputs": {
+            "value": [
+                [
+                    9,
+                    "band_width"
+                ]
+            ]
+        }
+    },
+    {
+        "constants": {
+            "value": 100.0
+        },
+        "bound_class": "/Constants/Float",
+        "position": [
+            121,
+            377
+        ],
+        "outputs": {
+            "value": [
+                [
+                    9,
+                    "frequency"
+                ]
+            ]
+        }
+    }
+]
